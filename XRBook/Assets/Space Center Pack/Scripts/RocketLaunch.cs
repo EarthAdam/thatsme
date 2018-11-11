@@ -16,7 +16,7 @@ public class RocketLaunch: MonoBehaviour {
 		if (Input.GetKeyDown(launchButton))
 		{
 
-			GetComponent<ConstantForce>().relativeForce = new Vector3(0, rocketSpeed, 0);  // this is for x,y,z
+			GetComponent<ConstantForce>().relativeForce = new Vector3(0, 0,rocketSpeed);  // this is for x,y,z
 
 		}
 	}

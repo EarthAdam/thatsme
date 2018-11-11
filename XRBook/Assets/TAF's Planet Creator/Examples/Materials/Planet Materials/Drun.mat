@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Drun
+  m_Shader: {fileID: 4800000, guid: 4a13ad73cf52d4e4cbc7363283959212, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsMap:
+        m_Texture: {fileID: 2800000, guid: 3b6eea957ff0ffb46a9eb1c073a3995b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IlluminMap:
+        m_Texture: {fileID: 2800000, guid: 702ea212dff05c14694cb12949fb9cda, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Surface:
+        m_Texture: {fileID: 2800000, guid: 8126f95921fb0a74f907a74f6d60da33, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceMap:
+        m_Texture: {fileID: 2800000, guid: 355dfcedf336f4f4592f9550b2320d5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _GlossPower: 0.3191741
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimPower: 1.7
+    - _RimThickness: 10.9
+    - _ShadowSideIntensity: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecPower: 0.7280501
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AtmosphereColor: {r: 0.89641446, g: 0.70826125, b: 0.9632353, a: 1}
+    - _CloudsColor: {r: 0.8676471, g: 0.8676471, b: 0.8676471, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _IceColor: {r: 0.3309137, g: 0.5735294, b: 0.16446798, a: 1}
+    - _IlluminColor: {r: 0.11724138, g: 1, b: 0, a: 1}
+    - _LandColor: {r: 0.6965513, g: 0, b: 1, a: 1}
+    - _PrimaryColor: {r: 0.1203504, g: 0.3430678, b: 0.7794118, a: 1}
+    - _RimColor: {r: 0.9558824, g: 0.8580616, b: 0.31628463, a: 1}
+    - _SecondaryColor: {r: 0.9044118, g: 0.5375104, b: 0.07315097, a: 1}
+    - _SpecColor: {r: 0.9264706, g: 0.85145533, b: 0.43598613, a: 1}
+    - _WaterColor: {r: 1, g: 0.8482758, b: 0, a: 1}

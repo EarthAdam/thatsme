@@ -1,0 +1,76 @@
+Reens Studios-Space Center Pack 1.2
+
+Thank you for purchasing the Space Center Pack from Reens Studios.
+
+For support please feel free to contact us at reensstudios@hotmail.com
+
+After importing the Space Center package into your project please see the below instructions for setting up the Demo Scenes.
+
+1. 
+	Choose Assets > Import Package > ParticleSystems > Import.
+
+  	
+This is for: The steam childobject of the Space Shuttles and Saturn V Rocket in Demo Scene 2 & The Saturn V Rocket Launch in Demo Scene 2 jump.
+
+
+NOTE. This is also needed for the Shuttle Steam, Rocket Steam and Rocket Launch particle prefabs.
+
+
+2. 	Choose Assets > Import Package > Characters> Import.
+
+This is for the first person character control.
+
+
+
+3.	 From the Asset Store download and import the Post Processing Stack.
+
+
+4.	Now you can open the Demo Scenes and enjoy.
+
+
+EXTRA NOTES FOR ROCKET LAUNCH.
+
+
+
+The Saturn V Rocket Launch was set up in the following way and can be adapted to all rockets. (Particle Systems must be installed as above)
+
+
+1.	Position the rocket on the launch pad and scale and rotate to your desire.
+2.	Select the Rocket > Component > Physics > ConstantForce
+3. 	Drag the RocketLaunch Script onto the Rocket. You can then enter the speed and select your desired launch key.
+4.	Drag the Rocket Launch prefab onto your rocket- Space Center Pack > Prefabs > Particles > Rocket Launch. Rotate 90 on the X.
+	and place under the rocket engines.
+
+
+NOTE: Below is how the Rocket Launch prefab was made from scratch.
+
+1.	From Standard Assets> ParticleSystems> Prefabs> Drag the Afterburner prefab to the base of the rocket.
+2.	Rotate the Afterburner prefab 90deg on the X.
+3.	Adjust the Start Lifetime to 1.5 (for length of the flame) 
+4.	Adjust the Start Size to 10 and 20
+5.	When you are happy with the size and position > from the Hierarchy drag the Afterburner onto the rocket to attach it.
+6. 	Press play to view the rocket launch and adjust the afterburner to your desired effect.
+
+	Note: The above afterburner prefab has been placed in the Space Center Pack as > Prefabs > Particles > Rocket Launch. 
+		Simply drag the Rocket Launch prefab onto your rocket.
+
+
+_______________________________________________________________________
+	For Demo Scene 2 Jump the following keys have been used for the individual rocket launches. Press them when you are ready to launch:
+
+	SpaceX Falcon launch:x
+	Nova Rocket Launch:n
+	Mercury Redstone Launch:q
+	Mercury Atlas Launch:m
+	Saturn V  Rocket Launch:v
+	Shuttle Red Launch:r
+	Shuttle Launch:c
+	Shuttle Blue Launch:b
+
+
+
+	Remember "Dream BIGGER Create BETTER"-Reens Studios
+
+
+
+	

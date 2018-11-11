@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1049,7 +1049,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &263262984
 GameObject:
@@ -1125,51 +1125,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!21 &295195928
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: TAF's Planet Shader/Planet - Earthlike
-  m_Shader: {fileID: 4800000, guid: 4a13ad73cf52d4e4cbc7363283959212, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _CloudsMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _IlluminMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SurfaceMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _GlossPower: 0.175
-    - _RimPower: 1.7
-    - _RimThickness: 9
-    - _ShadowSideIntensity: 0.05
-    - _SpecPower: 0.583
-    m_Colors:
-    - _AtmosphereColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CloudsColor: {r: 0.6784314, g: 0.8039216, b: 0.90588236, a: 0.16078432}
-    - _IceColor: {r: 0.627451, g: 0.84313726, b: 0.8666667, a: 1}
-    - _IlluminColor: {r: 0.36862746, g: 0.35686275, b: 0.13333334, a: 1}
-    - _LandColor: {r: 0.12156863, g: 0.69803923, b: 0.16470589, a: 1}
-    - _RimColor: {r: 0, g: 0.7921569, b: 1, a: 1}
-    - _SpecColor: {r: 0.28627452, g: 0.59607846, b: 0.7176471, a: 1}
-    - _WaterColor: {r: 0, g: 0.5019608, b: 1, a: 1}
 --- !u!1 &317575215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,7 +1614,7 @@ MonoBehaviour:
   planetName: New Planet
   cloudMovingSpeed: 9.3
   planet: {fileID: 1259711180}
-  usedMaterialPlanet: {fileID: 295195928}
+  usedMaterialPlanet: {fileID: 0}
   planetRotation: {x: 0, y: 0, z: 0}
   planetRotationSpeed: {x: 0, y: 1, z: 0}
   planetLayout: 1
@@ -2849,7 +2804,7 @@ Transform:
   m_Children:
   - {fileID: 628648452}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 9.42, y: 4.78, z: -44.39}
 --- !u!1 &1297506205
 GameObject:
@@ -3995,6 +3950,7 @@ GameObject:
   - component: {fileID: 1865037037}
   - component: {fileID: 1865037036}
   - component: {fileID: 1865037035}
+  - component: {fileID: 1865037039}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4064,8 +4020,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 28.055002, y: 0, z: 0}
+--- !u!114 &1865037039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1865037034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1482117547, guid: 76117edccecfa334bbc1ceb13d2b649f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlLF: 200
+  m_ControlMF: 1000
+  m_ControlHF: 5000
+  m_RoomGain: 1
+  m_ReflectionsGain: 0.24999999
+  m_ReflectionsDelay: 0.01
+  m_ReverbGain: 0.16
+  m_ReverbDelay: 0.03
+  m_ReverbDecayTime: 0.7
+  m_ReverbDecayLFRatio: 1
+  m_ReverbDecayHFRatio: 0.6
 --- !u!1 &1866480405
 GameObject:
   m_ObjectHideFlags: 0
@@ -4203,7 +4181,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1893994558
 GameObject:

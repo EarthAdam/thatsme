@@ -1,0 +1,386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1280599830937416}
+  m_IsPrefabParent: 1
+--- !u!1 &1196981419505084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4561041102665524}
+  - component: {fileID: 33745615804475924}
+  - component: {fileID: 23946425117831442}
+  - component: {fileID: 114277174366655498}
+  m_Layer: 0
+  m_Name: Ring Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1280599830937416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4185751456600942}
+  - component: {fileID: 114049241830070138}
+  m_Layer: 0
+  m_Name: Eseus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1884476306709760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4497166280970532}
+  - component: {fileID: 33085834254920188}
+  - component: {fileID: 23166311216842646}
+  - component: {fileID: 114139935062425560}
+  - component: {fileID: 114758365629644020}
+  m_Layer: 0
+  m_Name: Planet Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4185751456600942
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280599830937416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4497166280970532}
+  - {fileID: 4561041102665524}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4497166280970532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884476306709760}
+  m_LocalRotation: {x: 0.31432387, y: 0, z: 0, w: 0.94931585}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4185751456600942}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4561041102665524
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196981419505084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4185751456600942}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23166311216842646
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884476306709760}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23946425117831442
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196981419505084}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33085834254920188
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884476306709760}
+  m_Mesh: {fileID: 4300000, guid: 6729231ea012fad43a9ce87963b0f814, type: 3}
+--- !u!33 &33745615804475924
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196981419505084}
+  m_Mesh: {fileID: 4300000, guid: 3ced32634cb616445982c6e650ffc27b, type: 3}
+--- !u!114 &114049241830070138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280599830937416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3d59ff1b8aba84b94b500219304bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetName: Eseus
+  cloudMovingSpeed: 2
+  planet: {fileID: 1884476306709760}
+  usedMaterialPlanet: {fileID: 0}
+  planetRotation: {x: 36.64, y: 0, z: 0}
+  planetRotationSpeed: {x: 0, y: 1, z: 0}
+  planetLayout: 3
+  modusIndex: 3
+  planetPolycount: 0
+  planetSize: 1
+  planetPrefab: {fileID: 0}
+  customPlanetMaterial: {fileID: 2100000, guid: 70a27b3400228ad43a1eb7171d8449cf,
+    type: 2}
+  validateAgain: 1
+  foreignPrimaryColor:
+    serializedVersion: 2
+    rgba: 4291254047
+  foreignSecondaryColor:
+    serializedVersion: 2
+    rgba: 4279470567
+  foreignAtmosphereColor:
+    serializedVersion: 2
+    rgba: 4291029226
+  foreignRimColor:
+    serializedVersion: 2
+    rgba: 4280643990
+  foreignSpecColor:
+    serializedVersion: 2
+    rgba: 4289433416
+  foreignSpecPower: 0.75
+  foreignGlossPower: 0.3
+  foreignRimPower: 3.45
+  foreignRimThickness: 9
+  foreignTextureIndex: 3
+  foreignCloudTextureIndex: 5
+  foreignIlluminTextureIndex: 0
+  foreignSurfaceTexture: {fileID: 2800000, guid: d64d04bde5f22d94191b4fc80164b57a,
+    type: 3}
+  foreignCloudTexture: {fileID: 2800000, guid: 7ad4e2b89b2a31944a3c6fcec4d05370, type: 3}
+  foreignCloudColor:
+    serializedVersion: 2
+    rgba: 4286757074
+  foreignIlluminTexture: {fileID: 0}
+  foreignIlluminColor:
+    serializedVersion: 2
+    rgba: 4286368767
+  foreignDarkSideIllumin: 0.1
+  earthlikeLandColor:
+    serializedVersion: 2
+    rgba: 4280267422
+  earthlikeWaterColor:
+    serializedVersion: 2
+    rgba: 4294934528
+  earthlikeIceColor:
+    serializedVersion: 2
+    rgba: 4294962861
+  earthlikeAtmosphereColor:
+    serializedVersion: 2
+    rgba: 4291029226
+  earthlikeRimColor:
+    serializedVersion: 2
+    rgba: 4294953472
+  earthlikeSpecColor:
+    serializedVersion: 2
+    rgba: 4289433416
+  earthlikeSpecPower: 0.75
+  earthlikeGlossPower: 0.3
+  earthlikeRimPower: 1.7
+  earthlikeRimThickness: 9
+  earthlikeTextureIndex: 0
+  earthlikeCloudTextureIndex: 1
+  earthlikeIlluminTextureIndex: 1
+  earthlikeSurfaceTexture: {fileID: 2800000, guid: 80849946c25690d4b92e23cac1e8346c,
+    type: 3}
+  earthlikeCloudTexture: {fileID: 2800000, guid: 370844695283a3f45a0adcfb1e16ec55,
+    type: 3}
+  earthlikeCloudColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  earthlikeIlluminTexture: {fileID: 2800000, guid: fd2aaa53a213c60449d5aafd2e3c1dda,
+    type: 3}
+  earthlikeIlluminColor:
+    serializedVersion: 2
+    rgba: 4286368767
+  earthlikeDarkSideIllumin: 0.05
+  mainMoonPrimaryColor:
+    serializedVersion: 2
+    rgba: 4289897113
+  mainMoonSecondaryColor:
+    serializedVersion: 2
+    rgba: 4278732150
+  mainMoonRimColor:
+    serializedVersion: 2
+    rgba: 4282802034
+  mainMoonSpecColor:
+    serializedVersion: 2
+    rgba: 4289897113
+  mainMoonSpecPower: 0.26
+  mainMoonGlossPower: 0.66
+  mainMoonRimPower: 3.45
+  mainMoonRimThickness: 7.5
+  mainMoonTextureIndex: 0
+  mainMoonIlluminTextureIndex: 0
+  mainMoonSurfaceTexture: {fileID: 2800000, guid: fdf26412772d93d429f254048edf02a7,
+    type: 3}
+  mainMoonIlluminTexture: {fileID: 0}
+  mainMoonIlluminColor:
+    serializedVersion: 2
+    rgba: 4286368767
+  mainMoonDarkSideIllumin: 0.05
+  simpleRimColor:
+    serializedVersion: 2
+    rgba: 4291728637
+  simpleSpecColor:
+    serializedVersion: 2
+    rgba: 4292529259
+  simpleSpecPower: 0.75
+  simpleGlossPower: 0.3
+  simpleRimPower: 1.7
+  simpleRimThickness: 11
+  simpleTextureIndex: 4
+  simpleSurfaceTexture: {fileID: 2800000, guid: 377c7d00396b8624a9cb9c3f8f55faa4,
+    type: 3}
+  ringRotation: {x: 0, y: 0, z: 0}
+  ring: {fileID: 1196981419505084}
+  ringModusIndex: 0
+  ringSize: 1
+  ringRotationSpeed: {x: 0, y: 3, z: 0}
+  ringLayout: 0
+  ringPolycount: 0
+  ringSimpleSurfaceTexture: {fileID: 2800000, guid: 0d48098d78189ce41b2965a7104449a0,
+    type: 3}
+  ringSimpleTextureIndex: 4
+  ringAdvancedSurfaceTexture: {fileID: 2800000, guid: 5285e9f49bddde3458235b43aff073b1,
+    type: 3}
+  ringAdvancedTextureIndex: 1
+  ringAdvancedColor1:
+    serializedVersion: 2
+    rgba: 4284697131
+  ringAdvancedColor2:
+    serializedVersion: 2
+    rgba: 4281952639
+  ringAdvancedEmissionPower: 0.5
+  ringAdvancedAlpha: 1
+  ringPrefab: {fileID: 0}
+  customRingMaterial: {fileID: 0}
+  moons: []
+  tempMoons: []
+--- !u!114 &114139935062425560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884476306709760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9933cc5c3d5d54f4786170214db8bedf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudMovingSpeed: 2
+--- !u!114 &114277174366655498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196981419505084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8948c46242f9d5488a5385665378e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationDirection: {x: 0, y: 3, z: 0}
+--- !u!114 &114758365629644020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884476306709760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8948c46242f9d5488a5385665378e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationDirection: {x: 0, y: 1, z: 0}
